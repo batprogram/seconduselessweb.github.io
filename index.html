@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fly robin fly</title>
+    <style>
+        body, html{
+            margin: 0;
+            padding: 0;
+            max-width:max-content;
+            max-height: max-content;
+        }
+
+        .timer{
+            position: fixed;
+            bottom: 140px;
+            left: 50%;
+            width: 600px;
+            text-align: center;
+            transform: translateX(-50%);
+            font-family: monospace;
+            font-size: 26px;
+            background: rgba(255, 255, 255, 0.5);
+            padding: 20px;
+            border-radius: 23px;
+        }
+
+        .watermark{
+            position: fixed;
+            bottom: 0;
+            left: 5px;
+            text-align: justify;
+            font-family: monospace;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <canvas></canvas>
+    <div class="timer">gabut lo pada nonton ginian sampe <span class="seconds">0</span> detik</div>
+    <script src="./index.js"></script>
+    <div class="watermark"><h1>batface</h1></div>
+</body>
+</html>
