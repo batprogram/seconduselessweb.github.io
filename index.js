@@ -13,7 +13,7 @@ const image = new Image()
 image.src = './dick.png'
 
 const loopingDicks = 120
-const offsetDistance = 30
+const offsetDistance = 100
 let currentOffset = 0
 
 image.onload = () => {
@@ -35,7 +35,6 @@ for(let i = loopingDicks; i >= 0; i-- ) {
     draw(i * offsetDistance + currentOffset)
 }
 
-draw(offsetDistance)
 
 currentOffset++
 if(currentOffset >= offsetDistance){
