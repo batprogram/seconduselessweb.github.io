@@ -13,7 +13,7 @@ const image = new Image()
 image.src = './dick.png'
 
 const loopingDicks = 120
-const offsetDistance = 80
+const offsetDistance = 30
 let currentOffset = 0
 
 image.onload = () => {
