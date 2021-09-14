@@ -1,7 +1,7 @@
 const canvas = document.querySelector('canvas')
 const secondsCount = document.querySelector(".seconds")
 const context = canvas.getContext('2d')
-const dickDimensions = {width: 800 * 1.2, height: 770 * 1.2} 
+const dickDimensions = {width: 860 * 1.2, height: 830 * 1.2} 
 
 const startTime = Date.now()
 
